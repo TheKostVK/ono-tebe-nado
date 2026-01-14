@@ -1,0 +1,15 @@
+{
+  "name": "ono-tebe-nado",
+  "version": "1.0.0",
+  "description": "",
+  "author": "thekostvk",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "7.1.12"
+  }
+}

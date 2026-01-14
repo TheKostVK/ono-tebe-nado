@@ -1,13 +1,20 @@
+@import "variables.css";
+@import "fonts/fonts.css";
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
+    width: 1100px;
+    margin: 0 auto;
+    font-family: Raleway, sans-serif;
+
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-base);
+    line-height: var(--line-height-base);
 }
 
 h1,
@@ -21,14 +28,25 @@ ul,
 ol,
 li,
 blockquote {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-  color: inherit;
+    color: inherit;
 }
 
 img {
-  width: 100%;
+    width: 100%;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: [header-start] var(--header-container-height) [header-end section-main-start] 757px [section-main-end section-lots-start] 692px [section-lots-end section-about-start] 595px [section-about-end footer-start] 366px [footer-end];
+
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "lots lots lots lots lots lots lots lots lots lots lots lots"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
