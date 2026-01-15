@@ -32,6 +32,33 @@ blockquote {
     padding: 0;
 }
 
+h1 {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    line-height: var(--line-height-h1);
+    text-underline-offset: var(--text-underline-offset-h1);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    line-height: var(--line-height-h2);
+    text-underline-offset: var(--text-underline-offset-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+    line-height: var(--line-height-h3);
+    text-underline-offset: var(--text-underline-offset-h3);
+}
+
+p {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-base);
+    line-height: var(--line-height-base);
+}
+
 a {
     color: inherit;
 }
@@ -43,10 +70,10 @@ img {
 .page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: [header-start] var(--header-container-height) [header-end section--main-start] 757px [section--main-end section--lots-start] 692px [section--lots-end section--about-start] 595px [section--about-end footer-start] 366px [footer-end];
-
-    grid-template-areas: "header header header header header header header header header header header header"
-    "main main main main main main main main main main main main"
+    grid-template-rows: [section--main-start] 1fr [section--main-end section--lots-start] 1fr [section--lots-end section--about-start] 1fr [section--about-end];
+    grid-template-areas: "main main main main main main main main main main main main"
     "lots lots lots lots lots lots lots lots lots lots lots lots"
-    "footer footer footer footer footer footer footer footer footer footer footer footer";
+    "about about about about about about about about about about about about";
+
+    grid-row-gap: var(--space-128);
 }

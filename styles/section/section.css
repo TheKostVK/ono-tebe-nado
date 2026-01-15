@@ -1,0 +1,26 @@
+@import "section--main.css";
+@import "section--lots.css";
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: var(--space-28);
+}
+
+.section__header {
+
+}
+
+.section__content {
+
+}
+
+.section__footer {
+
+}
+
+.section--about {
+    grid-area: about;
+}

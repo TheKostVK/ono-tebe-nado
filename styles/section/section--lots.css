@@ -1,0 +1,38 @@
+.section--lots {
+    grid-area: lots;
+
+    padding: 0 var(--space-24);
+}
+
+.section__header--lots {
+    margin: 0 var(--space-40);
+}
+
+.section__content--lots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: var(--space-28);
+}
+
+.section__footer--lots {
+    margin: 0 var(--space-40);
+}
+
+.lots-article--1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/card-lot-01.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lots-article--2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/card-lot-02.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lots-article--3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/card-lot-03.jpg");
+    background-size: cover;
+    background-position: center;
+}

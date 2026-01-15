@@ -1,12 +1,31 @@
 :root {
+    --font-size-h1: 48px;
+    --font-weight-h1: bold;
+    --line-height-h1: 1.2;
+    --text-underline-offset-h1: 4px;
+
+    --font-size-h2: 36px;
+    --font-weight-h2: bold;
+    --line-height-h2: 1.2;
+    --text-underline-offset-h2: 4px;
+
+    --font-size-h3: 22px;
+    --font-weight-h3: bold;
+    --line-height-h3: 1.2;
+    --text-underline-offset-h3: 4px;
+
     --font-size-base: 20px;
     --font-weight-base: normal;
     --line-height-base: 1.2;
 
-    --font-size-small: 18px;
-    --font-weight-small: 200;
+    --font-size-small: 16px;
+    --font-weight-small: normal;
     --line-height-small: 1.35;
     --letter-spacing-small: 0.01em;
+
+    --font-size-lg: 28px;
+    --font-weight-lg: semi-bold;
+    --line-height-lg: 1.4;
 
     --color-base: #000000;
     --color-surface: #ffffff;
@@ -17,7 +36,9 @@
     --space-12: 12px;
     --space-16: 16px;
     --space-24: 24px;
+    --space-28: 28px;
     --space-32: 32px;
+    --space-40: 40px;
     --space-48: 48px;
     --space-64: 64px;
     --space-96: 96px;

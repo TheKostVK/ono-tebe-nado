@@ -1,6 +1,8 @@
 .section--main {
     grid-area: main;
+}
 
+.section__content--main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/cover.jpg");
     background-size: cover;
     background-position: center;
@@ -11,7 +13,7 @@
     grid-template-areas: "text" "menu";
 }
 
-.img-overlay__text {
+.img-overlay__content {
     grid-area: text;
 
     color: var(--color-surface);
@@ -31,7 +33,7 @@
     justify-items: center;
     align-items: end;
     grid-template-columns: 1fr;
-    grid-template-rows: 1.4fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "." "text-over1" "text-over2" "text-over3" ".";
 }
 
@@ -86,4 +88,6 @@
     border: 1px solid var(--color-surface);
 
     background-color: transparent;
+
+    cursor: pointer;
 }
