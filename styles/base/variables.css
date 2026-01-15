@@ -2,17 +2,17 @@
     --font-size-h1: 48px;
     --font-weight-h1: bold;
     --line-height-h1: 1.2;
-    --text-underline-offset-h1: 4px;
+    --text-underline-offset-h1: 5px;
 
     --font-size-h2: 40px;
     --font-weight-h2: bold;
     --line-height-h2: 1.2;
-    --text-underline-offset-h2: 4px;
+    --text-underline-offset-h2: 5px;
 
     --font-size-h3: 22px;
     --font-weight-h3: bold;
     --line-height-h3: 1.2;
-    --text-underline-offset-h3: 4px;
+    --text-underline-offset-h3: 5px;
 
     --font-size-base: 20px;
     --font-weight-base: normal;
@@ -27,8 +27,15 @@
     --font-weight-lg: semi-bold;
     --line-height-lg: 1.4;
 
-    --color-base: #000000;
-    --color-surface: #ffffff;
+    --color-primary: #3B82F6;
+
+    --color-bg: #F9FAFB;
+    --color-surface: #FFFFFF;
+
+    --color-text-main: #111827;
+    --color-text-secondary: #6B7280;
+
+    --color-border: #E5E7EB;
 
     --space-2: 2px;
     --space-4: 4px;
@@ -45,5 +52,14 @@
     --space-128: 128px;
 
     --header-height: 105px;
-    --header-container-height: calc(var(--header-height) + (var(--space-96) * 2));
+
+    /* Animation */
+    --animation-fast: 0.1s;
+    --animation-normal: 0.3s;
+    --animation-slow: 0.5s;
+
+    /* Shadows */
+    --shadow-e1: 0 2px 8px rgba(0, 0, 0, 0.10);
+    --shadow-e2: 0 4px 16px rgba(0, 0, 0, 0.12);
+    --shadow-e3: 0 8px 24px rgba(0, 0, 0, 0.14);
 }

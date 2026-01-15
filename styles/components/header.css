@@ -47,13 +47,3 @@
     justify-content: start;
     align-items: start;
 }
-
-.about__text {
-    white-space: wrap;
-}
-
-.about__text--underline {
-    text-decoration: underline;
-    text-decoration-color: currentColor;
-    text-underline-offset: 4px;
-}

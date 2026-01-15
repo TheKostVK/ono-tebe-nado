@@ -1,0 +1,37 @@
+.about__text {
+    position: relative;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: text-decoration var(--animation-normal) ease-in-out, color var(--animation-normal) ease-in-out;
+}
+
+.about__text:hover {
+    color: var(--color-text-secondary);
+}
+
+.about__text--underline {
+
+}
+
+.about__text--underline::after {
+    content: '';
+    position: absolute;
+
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 2px;
+
+    background-color: currentColor;
+    transition: width var(--animation-normal) ease-in-out;
+}
+
+.about__text--underline:hover::after {
+    width: 0;
+}
+
+.about__text--underline:hover {
+    color: var(--color-text-secondary);
+}

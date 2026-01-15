@@ -52,4 +52,13 @@
 .footer__social-link {
     height: 48px;
     width: 48px;
+
+    border-radius: 50%;
+
+    transition: background-color var(--animation-normal) ease-in-out;
+}
+
+.footer__social-link:hover {
+    background: color-mix(in srgb, var(--color-text-main) 5%, transparent);
+    color: var(--color-surface);
 }

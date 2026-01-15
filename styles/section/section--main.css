@@ -90,4 +90,11 @@
     background-color: transparent;
 
     cursor: pointer;
+
+    transition: background-color var(--animation-normal) ease-in-out;
+}
+
+.menu__button:hover {
+    background: color-mix(in srgb, var(--color-surface) 15%, transparent);
+    color: var(--color-surface);
 }
