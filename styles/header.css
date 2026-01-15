@@ -1,6 +1,4 @@
 .header {
-    grid-area: header;
-
     margin: var(--space-96) var(--space-24);
     padding: 0 var(--space-24);
     height: var(--header-height);
@@ -22,26 +20,6 @@
     align-items: center;
 
     gap: var(--space-12);
-}
-
-.nav__link {
-    text-decoration: underline;
-
-    cursor: pointer;
-}
-
-.nav__link--selected {
-    text-decoration: none;
-}
-
-.nav__circle {
-    display: inline-block;
-
-    width: 7px;
-    height: 7px;
-
-    border: 1px solid var(--color-base);
-    border-radius: 50%;
 }
 
 .header__logo {

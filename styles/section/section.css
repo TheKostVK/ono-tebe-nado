@@ -1,5 +1,6 @@
 @import "section--main.css";
 @import "section--lots.css";
+@import "section--about.css";
 
 .section {
     display: flex;
@@ -19,8 +20,4 @@
 
 .section__footer {
 
-}
-
-.section--about {
-    grid-area: about;
 }
