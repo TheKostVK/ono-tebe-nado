@@ -1,13 +1,13 @@
-@import "section-main.css";
+@import "section--main.css";
 
 .section {
 
 }
 
-.section-lots {
+.section--lots {
     grid-area: lots;
 }
 
-.section-about {
+.section--about {
     grid-area: about;
 }

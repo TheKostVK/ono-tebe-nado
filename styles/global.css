@@ -43,7 +43,7 @@ img {
 .page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: [header-start] var(--header-container-height) [header-end section-main-start] 757px [section-main-end section-lots-start] 692px [section-lots-end section-about-start] 595px [section-about-end footer-start] 366px [footer-end];
+    grid-template-rows: [header-start] var(--header-container-height) [header-end section--main-start] 757px [section--main-end section--lots-start] 692px [section--lots-end section--about-start] 595px [section--about-end footer-start] 366px [footer-end];
 
     grid-template-areas: "header header header header header header header header header header header header"
     "main main main main main main main main main main main main"

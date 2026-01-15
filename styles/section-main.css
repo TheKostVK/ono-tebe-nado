@@ -1,4 +1,4 @@
-.section-main {
+.section--main {
     grid-area: main;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/cover.jpg");
@@ -11,7 +11,7 @@
     grid-template-areas: "text" "menu";
 }
 
-.img-overlay--text {
+.img-overlay__text {
     grid-area: text;
 
     color: var(--color-surface);
@@ -53,7 +53,7 @@
     justify-self: end;
 }
 
-.img-overlay--menu {
+.img-overlay__menu {
     grid-area: menu;
 
     color: var(--color-surface);
@@ -70,11 +70,11 @@
     align-items: center;
 }
 
-.menu--text {
+.menu__text {
 
 }
 
-.menu--button {
+.menu__button {
     font-size: 22px;
     font-weight: 200;
     line-height: 1.25;
